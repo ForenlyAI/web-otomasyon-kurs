@@ -1,0 +1,38 @@
+{
+  "name": "Web Otomasyonu 101 — Pratik Mağaza (Python 3.12 + Selenium 4.49 + Playwright 1.63)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "forwardPorts": [
+    8000
+  ],
+  "portsAttributes": {
+    "8000": {
+      "label": "Pratik Mağaza",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "containerEnv": {
+    "BASLIKSIZ": "1",
+    "SE_BROWSER_PATH": "${containerWorkspaceFolder}/.devcontainer/chrome-kurs"
+  },
+  "postCreateCommand": "pip install --user uv && uv sync && uv run playwright install --with-deps chromium",
+  "postStartCommand": "nohup uv run python sunucu.py --sessiz > /tmp/sunucu.log 2>&1 &",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ],
+      "settings": {
+        "workbench.startupEditor": "readme"
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    }
+  },
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb"
+  }
+}

@@ -1,0 +1,7 @@
+20:14:55 INFO robots.txt okundu, istekler arası bekleme: 1 sn
+20:14:55 INFO GET /tablo.html -> 200 (3303 bayt)
+20:14:56 INFO GET /urunler/sayfa-1.html -> 200 (5903 bayt)
+20:14:57 WARNING robots.txt — yasaklı yol atlandı: /yonetim/index.html
+20:14:57 INFO GET /urunler/sayfa-2.html -> 200 (5967 bayt)
+20:14:58 INFO önbellekten: /tablo.html (istek yok)
+20:14:58 INFO bitti: 3 sayfa indirildi

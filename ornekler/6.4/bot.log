@@ -1,0 +1,7 @@
+2026-09-24 20:15:07 INFO başladı: http://localhost:8000/urunler/sayfa-1.html
+2026-09-24 20:15:07 INFO sayfa-1.html: 10 ürün
+2026-09-24 20:15:08 INFO sayfa-2.html: 10 ürün
+2026-09-24 20:15:10 INFO sayfa-3.html: 10 ürün
+2026-09-24 20:15:11 INFO sayfa-4.html: 10 ürün
+2026-09-24 20:15:12 INFO sayfa-5.html: 10 ürün
+2026-09-24 20:15:12 INFO bitti: 50 kayıt yazıldı (urunler.csv), çıkış kodu 0

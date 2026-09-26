@@ -1,0 +1,7 @@
+20:15:05 INFO başladı: 5 satır (basvurular.csv)
+20:15:06 INFO satır 2 gönderildi: ornek1@example.com
+20:15:06 INFO satır 3 gönderildi: ornek2@example.com
+20:15:06 INFO satır 4 gönderildi: ornek3@example.com
+20:15:06 INFO satır 5 gönderildi: ornek4@example.com
+20:15:06 INFO satır 6 gönderildi: ornek5@example.com
+20:15:07 INFO bitti: 5 gönderildi, 0 hatalı (hatalar.csv)
