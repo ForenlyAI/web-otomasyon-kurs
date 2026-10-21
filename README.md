@@ -1,4 +1,4 @@
-# Web Otomasyonu 101 — Laboratuvar
+# Tarayıcı İşlerini Otomatiğe Bağla — Laboratuvar
 
 [Forenly Academy](https://academy.forenly.ai) · **Web Otomasyonu 101** kursunun lab deposu.
 
